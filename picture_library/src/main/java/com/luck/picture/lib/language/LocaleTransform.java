@@ -30,10 +30,10 @@ public class LocaleTransform {
                 return Locale.JAPAN;
             case LanguageConfig.VIETNAM:
                 // 越南语
-                return new Locale("vi-rVN");
+                return new Locale("vi");
             case LanguageConfig.MYANMAR:
                 // 越南语
-                return new Locale("my-rMM");
+                return new Locale("my");
             default:
                 // 简体中文
                 return Locale.ENGLISH;
